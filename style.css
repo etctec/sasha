@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+a:active, a:hover, a:visited, a:link{
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.container{
+  position: relative;
+  background-image: url(1.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.bar {
+  top: 0;
+  padding: 20px;
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  width: 100%;
+  font: bold 50px sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-direction: row;
+}
+
+.play{
+  width: 40px;
+}
+
+.menu{
+  width: 35px;
+}
+
+.menu svg g{
+  fill: white;
+}
+.play svg g{
+  fill: white;
+}
