@@ -1,6 +1,11 @@
 *{
   box-sizing: border-box;
 }
+
+/*html{
+  font-size: 1%;
+}*/
+
 a:active, a:visited, a:link{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
@@ -16,14 +21,17 @@ body {
 
 .container{
   background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  /*background-size: 100% 100%;*/
   width: 100vw;
   height: 100vh;
 }
 
 .bar{
   background-color: rgba(0,0,0,.6);
-  padding: .3em;
-  font: bold 2.5em sans-serif;
+  /*background-size: 20vh;*/
+  padding: 15px;
+  font: bold 35px sans-serif;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -51,18 +59,20 @@ transform: translateY(-50%);*/
 }
 
 .pages{
-  background-color: rgba(0,0,0,.6);
+  /*background-color: rgba(0,0,0,.6);*/
   text-transform: uppercase;
-  font-size: 2em;
-  font: sans-serif;
+  font-size: 25px;
+  font-family: sans-serif;
   color: white;
-  height: 80vh;
-  /*height: calc(80vh);*/
+  height: 90vh;
+  /*height: calc(100vh - 10vh);*/
 }
 
 .pages ul{
+  /*background-color: rgba(0,0,0,.6);*/
   height: 100%;
-  padding: 3% 0;
+  padding: 7% 0;
+  margin: 0;
   list-style: none;
   display: flex;
   flex-direction: column;
