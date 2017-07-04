@@ -51,12 +51,8 @@ transform: translateY(-50%);*/
   width: .8em;
 }
 
-.menu svg g{
-  fill: white;
-}
-
-.play svg g{
-  fill: white;
+svg g{
+  fill: currentColor;
 }
 
 .pages{
