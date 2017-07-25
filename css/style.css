@@ -1025,9 +1025,9 @@ a:not(.slide-picture-wrapper):hover{
 		display: none;
 	}*/
 
-	.content .description br {
+	/*.content .description br {
 		display: none;
-	}
+	}*/
 
 	/*.video-player-background:nth-of-type(2){
 		display: block;	
@@ -1048,6 +1048,7 @@ a:not(.slide-picture-wrapper):hover{
 	.exp-cont-each {
 		width: 100%;
 		height: calc(91% / 4);
+		margin-bottom: -20px;
 	}
 
 	.exp-cont-each img {
@@ -1059,7 +1060,7 @@ a:not(.slide-picture-wrapper):hover{
 	}
 
 	.pages.exp-pages {
-	    padding: 75px 0 0;
+	    padding: 50px 0 0;
 	}
 
 	.exp-cont-each .content .description h4 {
